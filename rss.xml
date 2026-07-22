@@ -6,8 +6,15 @@
 
 <rss version="2.0">
   <channel>
-    <title>&test;</title>
+    <title>Test &test;</title>
     <link>https://example.com</link>
-    <description>XXE test</description>
+    <description>Test feed</description>
+
+    <item>
+      <title>Normal item</title>
+      <link>https://example.com</link>
+      <description>Test</description>
+    </item>
+
   </channel>
 </rss>
