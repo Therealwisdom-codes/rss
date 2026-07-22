@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE rss [
-<!ENTITY test SYSTEM "file:///etc/passwd">
+<!ENTITY test SYSTEM "file:///etc/hostname">
 ]>
 
 <rss version="2.0">
@@ -9,5 +9,11 @@
     <title>&test;</title>
     <link>https://example.com</link>
     <description>XXE test</description>
+
+    <item>
+      <title>Normal item</title>
+      <link>https://example.com/item</link>
+      <description>Test</description>
+    </item>
   </channel>
 </rss>
