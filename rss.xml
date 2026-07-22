@@ -11,10 +11,9 @@
     <description>XXE test</description>
 
     <item>
-      <title>&test;</title>
+      <title><![CDATA[&test;]]></title>
       <link>https://example.com/item</link>
       <description>Test</description>
     </item>
-
   </channel>
 </rss>
